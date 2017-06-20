@@ -1,1 +1,6 @@
-使用方法 ：将加固过的apk文件拖到pack.bat上，将自动打包签名，生成的文件在/cache/apks中，渠道配置设置channel文件,签名配置在config.ini文件
+
+使用方法 ：
+1.使用Walle正确配置渠道id，正常生成apk文件，进行对该文件进行加固等操作
+2.在channel文件设置渠道配置具体语法参考Walle,在config.ini文件配置应用签名（这里第一行留一行空白）
+3.将加固过的apk文件拖到packtool.bat上,或使用命令行：packtool [文件路径]
+4.packtool将自动打包签名，生成的文件在/cache/apks中
