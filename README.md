@@ -15,3 +15,10 @@ channel 渠道配置文件
 config.ini 签名配置文件
 packtool.bat 执行文件
 ~~~
+## lib中的三方依赖版本 
+~~~
+walle-cli-all.jar walle的命令行工具 1.1.3
+zipalign AndroidSDK build-tools 25.0.3
+apksigner  AndroidSDK build-tools 25.0.3
+CheckAndroidV2Signature https://github.com/bihe0832/Android-GetAPKInfo 暂无版本号
+~~~~
