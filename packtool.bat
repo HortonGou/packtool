@@ -6,10 +6,11 @@
 
 @set filename=%~n1
 
-@CALL lib/readconfig keyAlias keyAliasValue
-@CALL lib/readconfig storeFile storeFileValue
-@CALL lib/readconfig storePassword storePasswordValue
-@CALL lib/readconfig keyPassword keyPasswordValue
+@CALL %mypath%lib\readconfig keyAlias keyAliasValue
+@CALL %mypath%lib\readconfig storeFile storeFileValue
+@CALL %mypath%lib\readconfig storePassword storePasswordValue
+@CALL %mypath%lib\readconfig keyPassword keyPasswordValue
+
 
 @rd /s/q %mypath%cache
 
